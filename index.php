@@ -1,6 +1,6 @@
 <?php
   require_once 'instagram.class.php';
-  $instagram = new Instagram('099ddb4d09e648a6b11448961a99256b');
+  $instagram = new Instagram('your_client_id');
   $tag="coffee";
   $media = $instagram->getTagMedia($tag);
 ?>
