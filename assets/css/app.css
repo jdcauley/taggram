@@ -1,0 +1,199 @@
+/* ====================
+   Global Styles
+   ==================== */
+.padding{
+	padding: 10px;
+}
+/* ===================
+	 Header
+	 =================== */
+.modal-body button{
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+	border: none;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+/* ===================
+	 Main Pictures
+	 =================== */
+.main{
+	margin-top: 20px;
+}
+.box{
+	background: #fff;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 12px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 0px 12px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 0px 12px rgba(50, 50, 50, 0.75);
+}
+/* ===================
+	 Modal
+	 =================== */
+
+.bigModal{
+   width:840px;
+   margin-left:-420px;
+   border-radius: none;
+   -webkit-border-radius: none;
+   -moz-border-radius: none;
+}
+.modal {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.modal-body{
+	background: #E2E2E2;
+	max-height: 500px;
+}
+.modal.fade.in {
+	top: 5%;
+}
+.modal-img{
+	display: inline;
+}
+.modal-main-img{
+	background: #fff;
+	padding: 10px;
+	width: 470px;
+	-webkit-box-shadow: 0px 0px 12px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 0px 12px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 0px 12px rgba(50, 50, 50, 0.75);
+}
+.meta-profile img{
+	width: 30px;
+	height: 30px;
+	padding: 5px 5px 0 5px;
+}
+.instameta{
+	padding: 10px 5px 0 5px;
+}
+.modal-profile{
+	width: 290px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 5px 10px;
+}
+.modal-profile ul{
+	list-style: none;
+	vertical-align: top;
+	padding-left: 5px;
+	display: inline-block;
+	margin-left: 0;
+}
+.caption{
+	background: #fff;
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	/* border-top: 1px solid #9F9E9F; */
+}
+.profile-image{
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+}
+.profile-meta{
+	display: inline-block;
+}
+.profile-username{
+	font-size: 18px;
+}
+.like-header, .comments-header{
+	font-size: 16px;
+	margin-top: 20px;
+}
+.citem{
+	display: inline-block;
+}
+.tags{
+	margin-left: 35px;
+}
+.like-profile-img{
+	height: 30px;
+	width: 30px;
+	padding: 2px;
+}
+.comment-img{
+	width: 40px;
+	height: 40px;
+}
+.comment-meta{
+	vertical-align: top;
+}
+.comment-username{
+	vertical-align: top;
+}
+.comments{
+	margin-bottom: 10px;
+	/* border-top: 1px solid #9F9E9F; */
+	padding-top: 5px;
+}
+.comments img{
+	padding-right: 8px;
+	width: 30px;
+	height: 30px;
+}
+.comments-entry{
+	margin-left: 42px;
+}
+
+/* ===================
+	 Footer
+	 =================== */
+
+footer{
+	background: #373737;
+	color: #fff;
+	font-weight: 100;
+	margin-top: 40px;
+}
+footer a{
+	color: #fff;
+}
+footer a:hover{
+	color: #fff;
+}
+.footer{
+	padding: 40px 0;
+}
+p.tiny{
+	font-size: 10px;
+	font-style: normal;
+}
+.greedy-btn{
+	clear: both;
+	width: 100%;
+	text-align: center;
+	height: 60px;
+	padding: 9px 0 0;
+}
+@media(max-width:480px){
+	.bigModal{
+   width: 300px;
+   overflow-y: scroll;
+   margin: auto;
+   border-radius: none;
+   -webkit-border-radius: none;
+   -moz-border-radius: none;
+	}
+	.modal-main-img{
+	background: #fff;
+	padding: 10px;
+	width: 90%;
+	}
+	.modal-profile{
+	width: 90%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 0 5px;
+	padding: 0;
+	}
+}
