@@ -2,7 +2,7 @@
 
   require "instagram.class.php";
 	
-  $instagram = new Instagram('099ddb4d09e648a6b11448961a99256b');
+  $instagram = new Instagram('Your-Instagram-API-Key');
 	
 	$tag = $_GET['tag'];
 	$maxID = $_GET['maxid'];
