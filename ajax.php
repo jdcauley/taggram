@@ -1,9 +1,7 @@
 <?php
 
   require "instagram.class.php";
-	
-  $instagram = new Instagram('Your-Instagram-API-Key');
-	
+
 	$tag = $_GET['tag'];
 	$maxID = $_GET['maxid'];
 	$clientID = $instagram->getApiKey();
