@@ -12,6 +12,6 @@ Heavy Lifting by [@parent-tobias](https://github.com/parent-tobias)
 
 or upload the zip to your directory.
 
-1. Add your API Key in ajax.php and in index.php
-2. Pick your Tag in index.php
+1. Open index.php in your favorite text editor
+2. Add your Instagram API Key and the tag you want to display
 3. Your Done.
