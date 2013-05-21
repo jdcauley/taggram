@@ -4,7 +4,7 @@ Built using [Instagram-PHP-API](https://github.com/cosenary/Instagram-PHP-API)
 
 Styled with [Bootstrap](https://github.com/twitter/bootstrap)
 
-Heavy Lifting by @parent-tobias
+Heavy Lifting by [@parent-tobias](https://github.com/parent-tobias)
 
 ###Installation
 
