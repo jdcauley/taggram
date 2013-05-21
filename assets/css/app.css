@@ -1,23 +1,20 @@
+@import url('http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic');
+
 /* ====================
    Global Styles
    ==================== */
+
+
 .padding{
 	padding: 10px;
 }
+
+
 /* ===================
 	 Header
 	 =================== */
-.modal-body button{
-	background: #000;
-	color: #fff;
-	font-size: 12px;
-	border: none;
-	width: 25px;
-	height: 25px;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-}
+
+
 /* ===================
 	 Main Pictures
 	 =================== */
@@ -31,6 +28,8 @@
   -moz-box-shadow:    0px 0px 12px rgba(50, 50, 50, 0.75);
   box-shadow:         0px 0px 12px rgba(50, 50, 50, 0.75);
 }
+
+
 /* ===================
 	 Modal
 	 =================== */
@@ -48,8 +47,10 @@
 	border-radius: 0;
 }
 .modal-body{
-	background: #E2E2E2;
+	background: #E2E2E2 url('../img/grain.png') repeat;
 	max-height: 500px;
+	font-size: 12px;
+
 }
 .modal.fade.in {
 	top: 5%;
@@ -61,9 +62,6 @@
 	background: #fff;
 	padding: 10px;
 	width: 470px;
-	-webkit-box-shadow: 0px 0px 12px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    0px 0px 12px rgba(50, 50, 50, 0.75);
-  box-shadow:         0px 0px 12px rgba(50, 50, 50, 0.75);
 }
 .meta-profile img{
 	width: 30px;
@@ -74,10 +72,10 @@
 	padding: 10px 5px 0 5px;
 }
 .modal-profile{
-	width: 290px;
+	width: 280px;
 	display: inline-block;
 	vertical-align: top;
-	margin: 0 0 5px 10px;
+	margin: 0 10px 5px;
 }
 .modal-profile ul{
 	list-style: none;
@@ -87,13 +85,9 @@
 	margin-left: 0;
 }
 .caption{
-	background: #fff;
-	margin-top: 20px;
-	padding: 10px;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	/* border-top: 1px solid #9F9E9F; */
+	margin-top: 5px;
+	padding-top: 5px;
+	border-top: 1px solid #9F9E9F;
 }
 .profile-image{
 	height: 60px;
@@ -133,7 +127,7 @@
 }
 .comments{
 	margin-bottom: 10px;
-	/* border-top: 1px solid #9F9E9F; */
+	border-top: 1px solid #9F9E9F;
 	padding-top: 5px;
 }
 .comments img{
@@ -144,7 +138,9 @@
 .comments-entry{
 	margin-left: 42px;
 }
-
+.load{
+	margin-top: 20px;
+}
 /* ===================
 	 Footer
 	 =================== */
@@ -161,21 +157,16 @@ footer a{
 footer a:hover{
 	color: #fff;
 }
-.footer{
-	padding: 40px 0;
-}
+
 p.tiny{
 	font-size: 10px;
 	font-style: normal;
 }
-.greedy-btn{
-	clear: both;
-	width: 100%;
-	text-align: center;
-	height: 60px;
-	padding: 9px 0 0;
-}
 @media(max-width:480px){
+
+	.tag-line p{
+		margin: 10px auto;
+	}
 	.bigModal{
    width: 300px;
    overflow-y: scroll;
@@ -196,4 +187,6 @@ p.tiny{
 	margin: 10px 0 5px;
 	padding: 0;
 	}
+	
+}
 }
